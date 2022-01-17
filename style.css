@@ -1,0 +1,28 @@
+body{
+    background-image:url("bgp2.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Yatra One', cursive;
+}
+
+h1{
+    font-size:30px!important;
+}
+
+canvas{
+    animation-name:himanashu;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes himanashu{
+    0%{box-shadow:2px 2px 48px blue;}
+    25%{box-shadow:2px 2px 48px yellow;}
+    50%{box-shadow:2px 2px 48px pink;}
+    75%{box-shadow:2px 2px 48px red;}
+    100%{box-shadow:2px 2px 48px green;}
+}
+
+#snapshot:hover{
+    background-color: crimson;
+}
